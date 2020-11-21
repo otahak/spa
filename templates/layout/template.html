@@ -1,0 +1,15 @@
+<html lang="en">
+	<head>
+		<title>Zero-25: {% block title %}{% endblock %}</title>
+		{% include 'layout/head.html' %}
+	</head>
+
+	<body>
+
+		<div class='content'>
+			<div class='top'>
+				<h1>Zero-<span class='red'>25</span></h1><p>:&nbsp;The Future Is Inevitable</p>
+			</div>
+			{% block body %}{% endblock %}
+		</div>
+{% include 'layout/footer.html' %}

@@ -1,0 +1,123 @@
+/* body font-family: 'Bowlby One SC', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+
+/* title text font-family: 'Reem Kufi', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+h1, h2, h3 {
+	font-family: 'Bowlby One SC', cursive;
+	/*display: inline-block;*/
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff074c;
+	font-weight: bold;
+}
+
+.content {	
+	font-family: 'Sen', sans-serif;
+	color: #FFF;
+	padding: 2% 3%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.top {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.top h1 {
+	display: inline-block;
+}
+
+.top p {
+	display: inline-block;
+}
+
+.pageWrap img {
+	max-width: 80vw;
+}
+
+.description {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.controls {
+	width: 200px;
+	margin: 0 auto;
+	font-size: 2em;
+}
+
+.controls div {
+	width: 50px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.red {
+	color: #ff074c;
+}
+
+/* loading spinner */
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
