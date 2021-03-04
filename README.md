@@ -12,6 +12,7 @@ I needed a few things:
 
 * ### The Stack ###
 Here's what I've decided to use:
+
 	* Flask
 
 	* Flask-SQLAlchemy
